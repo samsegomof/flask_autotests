@@ -1,3 +1,4 @@
+.idea/
 .DS_Store
 .env
 .flaskenv
@@ -14,7 +15,8 @@ build/
 .tox/
 .cache/
 .pytest_cache/
-.idea/
+/__pycache__/
+
 docs/_build/
 .vscode
 
