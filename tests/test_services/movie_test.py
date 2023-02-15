@@ -12,11 +12,11 @@ def movie_dao():
     movie_dao = MovieDAO(None)
 
     m1 = Movie(id=1, title='Первый фильм', description='Description',
-               trailer='link', year=2010, rating=8.8, genre_id=1, diretor_id=1)
+               trailer='link', year=2010, rating=8.8, genre_id=1, direсtor_id=1)
     m2 = Movie(id=2, title='Второй фильм', description='Description',
                trailer='link', year=2010, rating=8.8, genre_id=1, director_id=1)
     m3 = Movie(id=3, title='Третий фильм', description='Description',
-               trailer='link', year=2010, rating=8.8, genre_id=1, diretor_id=1)
+               trailer='link', year=2010, rating=8.8, genre_id=1, direсtor_id=1)
 
     movies = {1: m1, 2: m2, 3: m3}
 
